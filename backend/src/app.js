@@ -9,7 +9,7 @@ app.use(bodyParser.json())
 postsRoutes(app)
 
 app.get('/', (req, res) => {
-  res.send('Hello from Express!!!')
+  res.send('Hello from Express with CI/CD!!!')
 })
 
 export { app }
